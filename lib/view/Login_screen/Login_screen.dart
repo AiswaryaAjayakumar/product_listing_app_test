@@ -131,10 +131,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           : Center(
                               child: CustomButton(
                                 label: "SUBMIT",
-                                textStyle: const TextStyle(
-                                  fontSize: 18,
-                                  color: Colors.white,
-                                ),
+                                textStyle:MytextStyle.buttonStyle,
                                 onPressed: _handleSubmit,
                               ),
                             ),

@@ -4,6 +4,8 @@ import 'package:product_listing_app_test/utils/color_constants.dart';
 
 class MytextStyle {
   static TextStyle buttonStyle = GoogleFonts.acme(
+      textStyle: TextStyle(fontSize: 20, color: ColorConstants.customWhite));
+        static TextStyle buttonStyle1= GoogleFonts.acme(
       textStyle: TextStyle(fontSize: 20, color: ColorConstants.customBlack));
 
   static TextStyle hintStyle = GoogleFonts.titilliumWeb(
@@ -11,7 +13,10 @@ class MytextStyle {
   static TextStyle hintStyle1 = GoogleFonts.titilliumWeb(
       textStyle: TextStyle(fontSize: 14, color: ColorConstants.customGrey));
 
-  static TextStyle normalText = GoogleFonts.poppins(
+  static TextStyle otpScreen = GoogleFonts.titilliumWeb(
+      textStyle: TextStyle(fontSize: 20, color: ColorConstants.customBlack));
+
+  static TextStyle normalText = GoogleFonts.akshar(
       textStyle: TextStyle(
           fontWeight: FontWeight.w500,
           fontSize: 15,

@@ -116,7 +116,7 @@ class CustomProductList extends StatelessWidget {
                   const SizedBox(height: 8),
                   Text(
                     product.name ?? 'No Name',
-                    style: MytextStyle.buttonStyle,
+                    style: MytextStyle.buttonStyle1,
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                   ),

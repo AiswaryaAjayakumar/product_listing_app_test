@@ -8,6 +8,7 @@ import 'package:product_listing_app_test/controller/wishlist_controller/wishlist
 import 'package:product_listing_app_test/view/Login_screen/Login_screen.dart';
 
 import 'package:product_listing_app_test/view/home_screen/home_screen.dart';
+import 'package:product_listing_app_test/view/otp_screen/otp_screen.dart';
 
 import 'package:provider/provider.dart';
 

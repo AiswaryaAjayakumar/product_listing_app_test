@@ -46,15 +46,18 @@ class _OtpVerificationScreenState extends State<OtpVerificationScreen> {
                         color: ColorConstants.customGreen,
                       ),
                     ),
+                    SizedBox(
+                      height: 10,
+                    ),
                     RichText(
                       textAlign: TextAlign.justify,
                       text: TextSpan(
                         style: MytextStyle.normalText,
                         children: [
                           TextSpan(
-                            text:
-                                " Please check your mobile device and enter the OTP below to verify your mobile number.",
-                          ),
+                              text:
+                                  " Please check your mobile device and enter the OTP below to verify your mobile number.",
+                              style: MytextStyle.otpScreen),
                         ],
                       ),
                     ),

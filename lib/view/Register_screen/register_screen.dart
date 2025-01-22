@@ -94,21 +94,16 @@ class _RegisterScreenState extends State<RegisterScreen> {
                               )
                             : CustomButton(
                                 label: "REGISTER",
-                                textStyle: const TextStyle(
-                                  fontSize: 18,
-                                  color: Colors.white,
-                                ),
+                                textStyle: MytextStyle.buttonStyle,
                                 onPressed: () {
                                   if (_formKey.currentState!.validate()) {
                                     setState(() {
                                       _isLoading = true;
                                     });
 
-                                    
                                     registerProvider.login(
                                       nameController.text.trim(),
                                       phoneController.text.trim(),
-                                     
                                       () {
                                         if (mounted) {
                                           setState(() {
@@ -122,7 +117,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                                               ),
                                             ),
                                           );
-                                         
+
                                           Navigator.pushReplacement(
                                             context,
                                             MaterialPageRoute(
@@ -132,7 +127,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
                                           );
                                         }
                                       },
-                                     
                                       (errorMessage) {
                                         if (mounted) {
                                           setState(() {
